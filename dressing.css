@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.mainDressing
+{
+    
+    background-color: #ffd9005e;
+}
+.mainDressing .head
+{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    width: 90%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.mainDressing .head a
+{
+    font-size: 14px;
+    height: 10px;
+    padding: 25px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.mainDressing .topElt
+{
+    width: 80%;
+    height: 14rem;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(255, 255, 255, 0.493);
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+.mainDressing .topElt p{
+    margin: auto;
+    margin-top: 1rem;
+    align-items: center;
+    width: 70%;
+}
+.mainDressing .topElt h3{
+    padding-top: .5rem;
+}
+.mainDressing .images
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    animation: pass 1s linear;
+}
+.mainDressing .images img
+{
+    width: 20rem;
+    padding-top: 2rem;
+    height: 30rem;  
+    margin: auto;
+    border-radius: 10rem;
+    overflow: hidden;
+    opacity: .5;
+    filter: grayscale(1.5);
+    border-bottom: 10px solid transparent;
+}
+.mainDressing .images img:hover{
+    transition: 700ms linear;
+    overflow: hidden;
+    opacity: 1;
+    border-bottom: 10px solid rgba(70, 69, 69, 0.685);
+    filter: none;
+    transform: scale(1.04);
+}
+
+@keyframes pass
+{
+    from
+    {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

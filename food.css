@@ -1,0 +1,19 @@
+.mainFood .Head
+{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    width: 90%;
+    box-shadow: 2px 2px 2px #00000080;
+
+}
+.mainFood .Head a{
+    font-size: 14px;
+    height: 10px;
+    padding: 25px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
