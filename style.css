@@ -1,0 +1,129 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    color: black;
+    transition: 300ms;
+    background-color: #ffd9005e;
+}
+.down
+{
+    display: flex;
+}
+.down .star
+{
+    height: 40px;
+    width: 40px;
+    background: linear-gradient(to right, #7c3c98, #ffd90000);
+    margin: auto;
+    animation: rotate 10s linear infinite;
+}
+.down .star2
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #d6751a, #ffd90000);
+    margin: auto;
+    animation: rotate 10s linear infinite;
+}
+.body .head 
+{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+}
+.body .head a
+{
+    font-size: 14px;
+    height: 10px;
+    padding: 25px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.body .head a:hover
+{
+    color: white;
+}
+
+.personImage
+{
+    width: 40%;
+    margin: auto;
+    height: 500px;
+    border-radius: 50px;
+}
+.personImage img
+{
+    height: 730px;
+    width: 100%;
+    margin: auto;
+}
+.Texts
+{
+    width: 40%;
+    margin: auto;
+    height: 100%;
+    padding: 10px;
+}
+.Texts p
+{
+   margin: auto;
+}
+.body .buttons 
+{
+    padding-top: 20px;
+    display: flex;
+    transition: 300ms;
+}
+.body .buttons button
+{
+    padding: 10px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(253, 147, 48);
+    width: 40%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.562);
+    color: white;
+    transition: 300ms;
+}
+.body .buttons .first
+{
+    margin-left: 15px;
+    background: linear-gradient(to right, #7c3c98a1, #ffd900a4);
+}
+.body .buttons .first:hover{
+    background: linear-gradient(to right, #7c3c98, #ffd900);
+    transition: 300ms;
+
+}
+.Texts .title
+{
+    font-size: 30px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@keyframes rotate
+{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
