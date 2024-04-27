@@ -17,3 +17,44 @@
     text-decoration: none;
     font-family: sans-serif;
 }
+.mainFood .images
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    animation: pass 1s linear;
+}
+footer
+{
+    height: 10rem;
+    background-color: rgb(65, 63, 63);
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+.mainFood .images img
+{
+    width: 20rem;
+    padding-top: 2rem;
+    height: 30rem;  
+    margin: auto;
+    border-radius: 10rem;
+    overflow: hidden;   
+    border-bottom: 10px solid transparent;
+    animation: animateFood 1s linear;
+}
+.mainFood .buttom{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+@keyframes animateFood
+{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
